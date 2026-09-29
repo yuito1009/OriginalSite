@@ -1,0 +1,131 @@
+body {
+  color: #333333;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  margin: 0;
+}
+
+hr {
+  margin-bottom: 50px;
+  height: 5px;
+  width: 100px;
+  border: none;
+}
+
+.blue-line {
+  background-color: #7bc3d1;
+}
+
+.white-line {
+  background-color: #ffffff;
+}
+
+#top {
+  background-image: url(top.jpg);
+  background-size: cover;
+  padding: 200px 0;
+}
+
+#about {
+  background-color: #F6F6F6;
+  padding: 100px;
+}
+
+#about img {
+  width: 200px;
+}
+
+#about table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#skills {
+  background-color: #7bc3d1;
+  padding: 100px;
+}
+
+#skills .container {
+  display: flex;
+  justify-content: center;
+}
+
+#skills .box {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 15%;
+}
+
+#skills .box img {
+  display: block;
+  margin: 20px auto;
+}
+
+#portfolio {
+  background-color: #F6F6F6;
+  padding: 100px;
+}
+
+#portfolio .container {
+  display: flex;
+  justify-content: center;
+}
+
+#portfolio .card {
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  margin: 20px;
+  width: 25%;
+}
+
+#portfolio .card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+header {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header img {
+  height: 30px;
+}
+
+header ul {
+  margin: 0;
+  display: flex;
+}
+
+header ul li {
+  padding: 0 20px;
+}
+
+header ul li a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: #7bc3d1;
+}
+
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 10px;
+}
